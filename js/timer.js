@@ -6,7 +6,7 @@
 		this.timer_node = d.getElementById('timer');
 		this.header_node = d.getElementById('header');
 		this.text_node = d.getElementById('text');
-		this.end_date_str = 'Wed Jun 28 2017 14:43:00 GMT+0300 (Russia Standard Time)';
+		this.end_date_str = 'Wed Jun 28 2017 16:00:00 GMT+0300 (Russia Standard Time)';
 		this.START_TIME = Math.floor((new Date).getTime()/1000);
 		this.END_TIME = Math.floor(new Date(this.end_date_str).getTime()/1000);
 
